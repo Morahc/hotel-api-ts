@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "yarn tsc",
+    "build": "tsc",
     "dev": "ts-node src/index.ts",
-    "start": "node ./build/index"
+    "start": "node ./build/index.js"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
